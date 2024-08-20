@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+@font-face {
+    font-family: "inter";
+    src: url("Inter_28pt-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "poppins";
+    src: url("Poppins-Regular.ttf");
+}
+
+
+@font-face {
+    font-family: "roboto";
+    src: url("Roboto-Regular.ttf");
+}
+
+
+
+.inter {
+    font-family: "inter";
+}
+
+
+
+.poppins {
+    font-family: "poppins";
+}
+
+.roboto {
+    font-family: "roboto";
+}
+
+
+.background1 {
+    background-image: url("photo.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.form-control::placeholder {
+    font-family: "poppins";
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(90, 90, 90, 1);
+}
+
